@@ -25,4 +25,9 @@ public class GreetingController {
     public String jungle() {
         return "Jungle Balls";
     }
+
+    @GetMapping("/Stillactive")
+    public String stillUp() {
+        return "Still up";
+    }
 }
